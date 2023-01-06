@@ -1,0 +1,27 @@
+O firebase tem duas opções de banco de dados: firestore database e realtime database
+- Realtime database pode-se entender como um arquivo json um lugar onde eu jogo as informações e outras pessoas podem ouvir essas informações
+ele não tem muita estrutura pré determinada, não tem tabelas, colunas. É uma estrutura schema free, posso seguir a formatação de dados que eu preferir
+- firestore database é mais um db tradicional como o mysql
+
+No projeto é utilizado o realtime, pois a aplicação tem uma única funcionalidade que é a parte de salas (perguntas e respostas), logo ficará muito simples e não precisa de uma estrutura muito robusta
+e como o próprio nome já diz é uma aplicação realtime
+
+Por padrão todo o <form> no html envia o user para algum lugar
+toda funçao que eu passo para algum evento nativo do html ela geralmente recebe como parametro o próprio evento
+e esse evento eu consigo manipular de alguma forma e consigo obter algumas informações do form
+
+*Valor do input
+existem várias formas de eu ter acesso aos valores passados no input
+a forma mais comum no react é utilizando um state/estado
+
+*firebase (é uma API)
+reference: referencia para um registro de dado dentro do db, como se fosse uma linha do banco de dados, estou me referindo a uma entidade a um dado que eu inseri dentro daquele banco
+
+*autenticar
+usuário esta logado ou não
+
+*autorização
+o que esse usuário pode executar dentro da aplicação
+
+*firebase
+$roomId: significa que quando o usuário estiver interagindo com uma sala unica 
